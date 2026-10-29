@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Yusuf Mukhtar Ayomide, Software Engineering student building practical web applications with PHP, MySQL, JavaScript, HTML and CSS.">
+  <meta name="theme-color" content="#090b12">
+  <meta property="og:title" content="Yusuf Mukhtar | Software Engineering Portfolio">
+  <meta property="og:description" content="Practical web projects, skills, and contact information for Yusuf Mukhtar.">
+  <title>Yusuf Mukhtar | Software Engineering Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Yusuf Mukhtar home"><span class="brand-mark">YM</span><span>Yusuf Mukhtar</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="active">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+      </div>
+      <a class="button button-small nav-cta" href="#contact">Let's talk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> SOFTWARE ENGINEERING STUDENT</div>
+        <h1>Hi, I'm <span class="gradient-text">Yusuf Mukhtar.</span><br>I build useful <span class="underline-accent">web solutions</span>.</h1>
+        <p class="hero-lead">I’m a Software Engineering student who enjoys turning real problems into practical digital products. I work with web technologies and keep learning by building projects.</p>
+        <div class="hero-actions">
+          <a class="button" href="#projects">Explore my projects <span>↘</span></a>
+          <a class="button button-outline" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-highlights" aria-label="Portfolio highlights">
+          <div><strong>01</strong><span>Build practical tools</span></div>
+          <div><strong>02</strong><span>Learn by shipping projects</span></div>
+          <div><strong>03</strong><span>Open to collaboration</span></div>
+        </div>
+        <div class="social-links" aria-label="Social links">
+          <a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub profile (replace with your profile)">GH</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn profile (replace with your profile)">in</a><a href="mailto:mukhtarayomideyusuf@gmail.com" aria-label="Email Yusuf">@</a>
+          <span class="social-note">Always learning. Always building.</span>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Decorative developer illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="code-window">
+          <div class="window-top"><span></span><span></span><span></span><small>yusuf.dev</small></div>
+          <div class="code-lines">
+            <p><span class="code-purple">const</span> developer = {</p>
+            <p class="indent"><span class="code-blue">name</span>: <span class="code-green">'Yusuf'</span>,</p>
+            <p class="indent"><span class="code-blue">focus</span>: <span class="code-green">'Web apps'</span>,</p>
+            <p class="indent"><span class="code-blue">mindset</span>: <span class="code-green">'Keep building'</span></p>
+            <p>};</p>
+            <p class="code-comment">// turning ideas into reality ✦</p>
+          </div>
+          <div class="floating-chip chip-top">⌘ Problem solver</div>
+          <div class="floating-chip chip-bottom"><span class="status-dot"></span> Available to collaborate</div>
+        </div>
+        <div class="hero-glow"></div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="about">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Curious mind. <span class="gradient-text">Builder's mindset.</span></h2></div>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>I’m Yusuf Mukhtar Ayomide, a Software Engineering student at Al-Hikmah University. I’m interested in creating web applications that solve everyday problems and make tasks easier for people.</p>
+            <p>My experience so far includes building a campus marketplace and a simple management tool for a recharge-card business. I enjoy learning through hands-on projects and improving my skills one step at a time.</p>
+            <a class="text-link" href="#contact">Have a project in mind? Let's connect <span>↗</span></a>
+          </div>
+          <div class="about-facts">
+            <div class="fact"><span class="fact-icon">01</span><div><h3>Learn by building</h3><p>Practical projects and continuous improvement.</p></div></div>
+            <div class="fact"><span class="fact-icon">02</span><div><h3>Focus on usefulness</h3><p>Technology should solve real problems.</p></div></div>
+            <div class="fact"><span class="fact-icon">03</span><div><h3>Open to collaboration</h3><p>Happy to learn and work with other developers.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading"><p class="eyebrow">MY TOOLKIT</p><h2>Skills I'm building</h2><p class="section-subtitle">A growing set of tools I use to create and improve web projects.</p></div>
+      <div class="skills-grid">
+        <div class="skill-card"><span class="skill-icon orange">5</span><span>HTML</span><small>Page structure</small></div>
+        <div class="skill-card"><span class="skill-icon blue">✳</span><span>CSS</span><small>Styling & layout</small></div>
+        <div class="skill-card"><span class="skill-icon yellow">JS</span><span>JavaScript</span><small>Interactivity</small></div>
+        <div class="skill-card"><span class="skill-icon purple">php</span><span>PHP</span><small>Server-side logic</small></div>
+        <div class="skill-card"><span class="skill-icon cyan">◈</span><span>MySQL</span><small>Database basics</small></div>
+        <div class="skill-card"><span class="skill-icon white">⌘</span><span>Git & GitHub</span><small>Version control</small></div>
+      </div>
+      <p class="skill-note">Only list technologies you can comfortably discuss. You can edit this section as your skills grow.</p>
+    </section>
+
+    <section class="section section-muted" id="projects">
+      <div class="container">
+        <div class="projects-heading">
+          <div class="section-heading"><p class="eyebrow">SELECTED WORK</p><h2>Projects I've worked on</h2></div>
+          <span class="project-count">02 PROJECTS</span>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-preview marketplace-preview">
+              <div class="preview-browser"><span></span><span></span><span></span><small>campus-market</small></div>
+              <div class="market-content"><div class="mini-brand">Campus<span>Market NG</span></div><div class="mini-tag">BUY · SELL · CONNECT</div><h3>Your campus.<br>Your marketplace.</h3><div class="mini-search">Find something you need... <b>→</b></div><div class="mini-product-row"><i></i><i></i><i></i></div></div>
+              <span class="preview-label">WEB MARKETPLACE</span>
+            </div>
+            <div class="project-body">
+              <div class="project-title-row"><h3>Campus Market NG</h3><span class="project-type">01 / Marketplace</span></div>
+              <p>A student marketplace concept for buying and selling items within a campus community, with account access, product listings, and seller contact features.</p>
+              <div class="tag-list"><span>PHP</span><span>MySQL</span><span>HTML/CSS</span><span>JavaScript</span></div>
+              <div class="project-actions"><button class="text-link case-study-toggle" type="button" aria-expanded="false" aria-controls="case-market">View project details <span>＋</span></button><a class="button button-small" href="https://campusmarketng.rf.gd/campus_marketplace_ng/" target="_blank" rel="noopener noreferrer">Open live site <span>↗</span></a></div>
+              <div class="case-study" id="case-market" hidden><h4>What it is</h4><p>A campus-focused marketplace concept for students to discover listings and contact sellers.</p><h4>Key areas</h4><ul><li>Account registration and login flow</li><li>Product listing and seller contact experience</li><li>PHP and MySQL-backed application structure</li></ul><p class="case-note">Use the Open live site link to visit the deployed Campus Market NG project.</p></div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-preview recharge-preview">
+              <div class="dashboard-top"><span>Recharge Business</span><span>● ● ●</span></div>
+              <div class="dashboard-layout"><div class="dashboard-side"><b>◫</b><b>▤</b><b>◷</b><b>⚙</b></div><div class="dashboard-main"><small>DAILY OVERVIEW</small><h3>Business summary</h3><div class="metric-row"><div><small>Opening</small><b>₦ —</b></div><div><small>Closing</small><b>₦ —</b></div><div><small>Result</small><b class="positive">Track</b></div></div><div class="chart-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="dashboard-table"><span>Daily records</span><i></i><i></i><i></i></div></div></div>
+              <span class="preview-label">BUSINESS DASHBOARD</span>
+            </div>
+            <div class="project-body">
+              <div class="project-title-row"><h3>Recharge Business Manager</h3><span class="project-type">02 / Management</span></div>
+              <p>A web-based tool designed to help track daily balances, stock costs, and profit or shortage for a recharge-card business.</p>
+              <div class="tag-list"><span>PHP</span><span>MySQL</span><span>HTML/CSS</span><span>JavaScript</span></div>
+              <div class="project-actions"><button class="text-link case-study-toggle" type="button" aria-expanded="false" aria-controls="case-recharge">View project details <span>＋</span></button><a class="button button-small" href="https://rechargebusiness.gamer.gd/recharge_business_v3/daily.php?date=2026-10-06" target="_blank" rel="noopener noreferrer">Open live site <span>↗</span></a></div>
+              <div class="case-study" id="case-recharge" hidden><h4>What it is</h4><p>A daily tracking tool created to make recharge-card business balances and results easier to review.</p><h4>Key areas</h4><ul><li>Daily opening and closing balance records</li><li>Stock-cost and profit/shortage tracking</li><li>Records stored using PHP and MySQL</li></ul><p class="case-note">The preview artwork is illustrative. Use the Open live site link to visit the deployed recharge management app.</p></div>
+            </div>
+          </article>
+        </div>
+        <p class="projects-disclaimer">Live project links open in a new tab. The dashboard previews are illustrative representations of the applications.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="contact">
+      <div class="contact-panel">
+        <div class="contact-copy"><p class="eyebrow">HAVE SOMETHING IN MIND?</p><h2>Let's build something <span class="gradient-text">useful.</span></h2><p>I'm open to learning opportunities, collaborations, and interesting projects. Reach out and let's talk.</p></div>
+        <div class="contact-links">
+          <a class="contact-link" href="mailto:mukhtarayomideyusuf@gmail.com"><span class="contact-icon">@</span><span><small>Email me</small><b>mukhtarayomideyusuf@gmail.com</b></span><span class="contact-arrow">↗</span></a>
+          <button class="copy-email" id="copyEmail" type="button">Copy email address <span>▣</span></button>
+          <p class="copy-feedback" id="copyFeedback" role="status" aria-live="polite"></p>
+          <a class="contact-link" href="https://github.com/" target="_blank" rel="noreferrer"><span class="contact-icon">GH</span><span><small>Source code</small><b>Add your GitHub</b></span><span class="contact-arrow">↗</span></a>
+          <a class="contact-link" href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><span class="contact-icon">in</span><span><small>Professional profile</small><b>Add your LinkedIn profile</b></span><span class="contact-arrow">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">YM</span><span>Yusuf Mukhtar</span></a><p>Designed & built with care <span class="gradient-text">✦</span></p><p>© <span id="year"></span> Yusuf Mukhtar</p></div></footer>
+  <a class="back-to-top" href="#home" aria-label="Back to top">↑</a>
+  <script src="script.js"></script>
+</body>
+</html>
